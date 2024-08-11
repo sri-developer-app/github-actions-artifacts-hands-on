@@ -24,7 +24,7 @@ jobs:
 
     steps:
     - name: download text file 
-      uses: download-artifact@v4.1.8
+      uses: actions/download-artifact@v4.1.8
       with:
         name: hello-artifact
         path: ./artifacts/hello.txt
